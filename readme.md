@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/DimitriMikadze/express-react-redux-starter.svg?branch=master)](https://travis-ci.org/DimitriMikadze/express-react-redux-starter)
-[![dependencies Status](https://david-dm.org/DimitriMikadze/express-react-redux-starter/status.svg)](https://david-dm.org/DimitriMikadze/express-react-redux-starter)
-
 # Starter for Express, React, Redux, SCSS applications
 
 ## Features
@@ -12,22 +9,6 @@
 - React, Redux configuration
 - Testing environment configured with Mocha and Chai
 - Linting with Airbnb eslint configuration
-
-## Getting Started
-
-Clone Repo
-
-````
-git clone https://github.com/DimitriMikadze/express-react-redux-starter.git
-````
-
-npm install dependencies
-
-````
-cd express-react-redux-starter 
-
-npm install
-````
 
 ### Start development server with hot reloading
 
@@ -70,14 +51,3 @@ Start production server
 ````
 npm run start
 ````
-
-Note: I'm using pm2 for production server, you should install it on server via 'npm install pm2 -g'.
-if you don't want to use pm2, just change pm2 with node in package.json file in scripts section.
-
-### Contributing
-
-contributions are welcome!
-
-### License
-
-MIT
